@@ -13,7 +13,7 @@ using namespace std;
 #define pb push_back
 #define ppb pop_back
 
-// Using greedy approach to select the next task which ends as soon as possible to get 
+// Using greedy approach to select the next task which starts after finishing of the current task ends as soon as possible to get 
 // maximum possible no. of tasks done.
 
 bool func(pair<int,int> a , pair<int,int> b){
